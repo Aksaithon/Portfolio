@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.BLOCKS {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+}
+
+.Main_BLOCK {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  height: 300px;
+}
+
+.myImg {
+  width: 296px;
+  height: 300px;
+  background-image: url(/Croped-Pic.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.title_and_cations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.title {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 60px;
+  font-style: normal;
+  color: #ffff;
+}
+
+.captions {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+
+  letter-spacing: 1.6px;
+}
+
+.bold {
+  font-weight: 700;
+}
