@@ -4,9 +4,10 @@
   display: flex;
   flex-direction: column;
 
+  gap: 40px;
+
   align-items: center;
   justify-content: center;
-
   width: 100vw;
 }
 
@@ -17,7 +18,6 @@
   align-items: center;
   justify-content: center;
 
-  height: 300px;
 }
 
 .myImg {
@@ -56,4 +56,23 @@
 
 .bold {
   font-weight: 700;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #4f46e5;
+}
+
+.FEATURED_AND_ToolBelt_plus_Background_BLOCK {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.Featured_BLOCK {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  width: 357px;
 }

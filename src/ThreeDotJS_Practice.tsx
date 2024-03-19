@@ -14,6 +14,7 @@ const ThreeDotJS_Practice = () => {
 
   const renderer = new THREE.WebGLRenderer();
   renderer.setSize(window.innerWidth, window.innerHeight);
+
   useEffect(() => {
     document.body.appendChild(renderer.domElement);
 
@@ -44,7 +45,38 @@ const ThreeDotJS_Practice = () => {
     };
   }, []);
 
-  return <></>;
+  const lineScene = new THREE.Scene();
+
+  const lineCamera = new THREE.PerspectiveCamera(
+    45,
+    window.innerWidth / window.innerHeight,
+    1,
+    500
+  );
+
+  lineCamera.position.set(0, 0, 100);
+  lineCamera.lookAt(0, 0, 0);
+
+  const lineMaterial = new THREE.LineBasicMaterial({ color: 0x0000ff });
+
+  const linePoints = [];
+  linePoints.push(new THREE.Vector3(-10, 0, 0));
+  linePoints.push(new THREE.Vector3(0, 10, 0));
+  linePoints.push(new THREE.Vector3(10, 0, 0));
+
+  const lineGeometry = new THREE.BufferGeometry().setFromPoints(linePoints);
+  const line = new THREE.Line(lineGeometry, lineMaterial);
+
+  
+  const lineRenderer = new THREE.WebGLRenderer();
+  lineRenderer.setSize(window.innerWidth, window.innerHeight);
+  
+  lineScene.add(line);
+  lineRenderer.render(lineScene, lineCamera);
+  
+  useEffect(() => {
+    document.body.appendChild(lineRenderer.domElement);
+  }, []);
 };
 
 export default ThreeDotJS_Practice;
