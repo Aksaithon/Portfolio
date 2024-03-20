@@ -17,7 +17,6 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
 }
 
 .myImg {
@@ -66,13 +65,36 @@
 .FEATURED_AND_ToolBelt_plus_Background_BLOCK {
   display: flex;
   flex-direction: row;
-  gap: 80px;
+  gap: 55px;
 }
 
 .Featured_BLOCK {
   display: flex;
   flex-direction: column;
+  gap: 45px;
+}
+
+.feature_title {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+
   gap: 25px;
 
+  width: 100%;
+}
+
+.ToolBelt_plus_Background_BLOCK {
+  display: flex;
+  flex-direction: column;
+
+  gap: 55px;
   width: 357px;
 }

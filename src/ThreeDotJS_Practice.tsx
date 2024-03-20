@@ -77,6 +77,8 @@ const ThreeDotJS_Practice = () => {
   useEffect(() => {
     document.body.appendChild(lineRenderer.domElement);
   }, []);
+
+  return<></>
 };
 
 export default ThreeDotJS_Practice;

@@ -1,5 +1,7 @@
 import styles from "./HomePage.module.css";
+import Background from "./HomePgCOmponents/Background";
 import Featured from "./HomePgCOmponents/Featured";
+import Toolbelt from "./HomePgCOmponents/Toolbelt";
 const HomePage = () => {
   return (
     <>
@@ -23,31 +25,51 @@ const HomePage = () => {
 
         <div className={styles.FEATURED_AND_ToolBelt_plus_Background_BLOCK}>
           <div className={styles.Featured_BLOCK}>
-            <Featured
-              image={"/Feature1.png"}
-              title={"Feature 1"}
-              date={"March 19"}
-            />
-            <Featured
-              image={"/Feature2.png"}
-              title={"Feature 2"}
-              date={"March 19"}
-            />
-            <Featured
-              image={"/Feature3.png"}
-              title={"Feature 3"}
-              date={"March 19"}
-            />
+            <div className={styles.feature_title}>Featured</div>
+            <div className={styles.features}>
+              <Featured
+                image={"/Feature1.png"}
+                title={"Feature 1"}
+                date={"March 19"}
+              />
+              <Featured
+                image={"/Feature2.png"}
+                title={"Feature 2"}
+                date={"March 19"}
+              />
+              <Featured
+                image={"/Feature3.png"}
+                title={"Feature 3"}
+                date={"March 19"}
+              />
+            </div>
           </div>
 
-          <div className="ToolBelt_plus_Background_BLOCK">
-            <div className="toolbelt">
-              <div className="toolbelt_title"></div>
-              <div className="allMyTools"></div>
-            </div>
-            <div className="background">
-              <div className="background_title"></div>
-            </div>
+          <div className={styles.ToolBelt_plus_Background_BLOCK}>
+            <Toolbelt />
+            <Background
+              imageArr={[
+                "/Feature1.png",
+                "/Feature2.png",
+                "/Feature3.png",
+                "/Feature2.png",
+                "/Feature1.png",
+              ]}
+              titleArr={[
+                "My doosra experience",
+                "Mero teesra xp",
+                "My doosra experience",
+                "Amazon",
+                "Google",
+              ]}
+              timelineArr={[
+                "May 1 - Present",
+                "Sep 10 - Dec25",
+                "Jan 20 - Apr 31",
+                "jlsdjl - jkjks",
+                "akl09 - klk90",
+              ]}
+            />
           </div>
         </div>
       </div>

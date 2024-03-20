@@ -1,9 +1,9 @@
-import ThreeDotJS_Practice from "./ThreeDotJS_Practice";
+import Model3D from "./Model3D";
 
 const App3D = () => {
   return (
     <>
-      <ThreeDotJS_Practice />
+      <Model3D/>
     </>
   );
 };

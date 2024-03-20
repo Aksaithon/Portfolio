@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+.experience {
+  display: flex;
+  flex-direction: row;
+
+  gap: 15px;
+}
+
+.xp_title_and_timeline {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+}
+
+.title {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #fff;
+}
+
+.timeline {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #737373;
+}
