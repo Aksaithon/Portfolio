@@ -1,7 +1,7 @@
 import styles from "./HomePage.module.css";
-import Background from "./HomePgCOmponents/Background";
-import Featured from "./HomePgCOmponents/Featured";
-import Toolbelt from "./HomePgCOmponents/Toolbelt";
+import Background from "./Background";
+import Featured from "./Featured";
+import Toolbelt from "./Toolbelt";
 const HomePage = () => {
   return (
     <>
@@ -56,18 +56,18 @@ const HomePage = () => {
                 "/Feature1.png",
               ]}
               titleArr={[
-                "My doosra experience",
-                "Mero teesra xp",
-                "My doosra experience",
+                "My doosra experdjaljdalksience",
+                "Mero teesdjalkra xp",
+                "My doosradakjkal experience",
                 "Amazon",
                 "Google",
               ]}
               timelineArr={[
-                "May 1 - Present",
-                "Sep 10 - Dec25",
-                "Jan 20 - Apr 31",
-                "jlsdjl - jkjks",
-                "akl09 - klk90",
+                "May 1 - Prejsdlksent",
+                "Sep 10 - Decfjslkfjsl25",
+                "Jan 20 - Apfsjlfjsldfjsljfljkjfr 31",
+                "jlsdjl - jkfjslfjjks",
+                "akl09 - klkfsjlf90",
               ]}
             />
           </div>

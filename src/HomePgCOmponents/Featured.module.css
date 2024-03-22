@@ -7,7 +7,6 @@
   align-items: flex-start;
   justify-content: flex-end;
 
-  width: 327px;
   height: 146px;
 
   border-radius: 10px;
@@ -17,7 +16,7 @@
 .title_and_date_ui {
   display: flex;
   flex-direction: column;
-  width: inherit;
+  width: 100%;
 }
 
 .feature_title {
