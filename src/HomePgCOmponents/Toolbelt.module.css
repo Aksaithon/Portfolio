@@ -5,6 +5,7 @@
   flex-direction: column;
 
   justify-content: flex-start;
+  width: 100%;
 
   gap: 45px;
   margin-right: 40px;

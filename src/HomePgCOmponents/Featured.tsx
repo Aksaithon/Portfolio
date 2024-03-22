@@ -10,6 +10,7 @@ const Featured: React.FC<featureData> = ({ image, title, date }) => {
   return (
     <>
       <div
+
         className={styles.feature}
         style={{
           background: `linear-gradient(180deg, rgba(0, 0, 0, 0.00) 3.04%, rgba(0, 0, 0, 0.59) 55.72%, rgba(0, 0, 0, 0.78) 84.9%), url(${image}) lightgray 50% / cover no-repeat`,
