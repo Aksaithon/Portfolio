@@ -26,6 +26,9 @@
   background-size: cover;
   background-position: center;
 }
+.myImg{
+  scale: 0.8;
+}
 
 .title_and_cations {
   display: flex;
