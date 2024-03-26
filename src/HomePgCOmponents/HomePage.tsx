@@ -16,9 +16,9 @@ const HomePage = () => {
 
             <div className={styles.captions}>
               I'm a <span className={styles.bold}>learner</span> specializing in
-              <span className={styles.bold}> React</span> ,
+              <span className={styles.bold}> 3D</span> ,
               <span className={styles.bold}> Typscript</span> and the
-              <span className={styles.bold}> 3D.</span>
+              <span className={styles.bold}> web.</span>
             </div>
           </div>
         </div>

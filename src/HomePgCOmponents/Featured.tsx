@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styles from "./Featured.module.css";
 
 interface featureData {
@@ -7,16 +8,19 @@ interface featureData {
 }
 
 const Featured: React.FC<featureData> = ({ image, title, date }) => {
+
+  const [hover, setHover] = useState(false);
   return (
     <>
       <div
-
-        className={styles.feature}
+        className={styles.feature}  
         style={{
-          background: `linear-gradient(180deg, rgba(0, 0, 0, 0.00) 3.04%, rgba(0, 0, 0, 0.59) 55.72%, rgba(0, 0, 0, 0.78) 84.9%), url(${image}) lightgray 50% / cover no-repeat`,
+          background: hover ? `linear-gradient(180deg, rgba(0, 248, 99, 0) 1%, rgba(82, 255, 1, 0) 8%, rgba(0, 0, 0, 1) 100%), url(${image}) lightgray 50% / cover no-repeat` : `linear-gradient(180deg, rgba(0, 248, 99, 0.2) 1%, rgba(82, 255, 1, 0.2) 8%, rgba(0, 0, 0, 1) 100%), url(${image}) lightgray 50% / cover no-repeat`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
+        onMouseEnter={() => {setHover(true)}}
+        onMouseLeave={() => {setHover(false)}}
       >
         <div className={styles.title_and_date_ui}>
           <div className={styles.feature_title}>{title}</div>

@@ -7,14 +7,14 @@ const Toolbelt = () => {
         <div className={styles.toolbelt_title}>Toolbelt</div>
         <ul>
           <li>React</li>
+          <li>Javascript</li>
           <li>Typescript</li>
-          <li>Python</li>
           <li>HTML</li>
           <li>CSS</li>
-          <li>Figma</li>
           <li>Prototyping</li>
-          <li>Wireframing</li>
           <li>Github</li>
+          <li>Figma</li>
+          <li>Wireframing</li>
           <li>Version Control</li>
         </ul>
       </div>
