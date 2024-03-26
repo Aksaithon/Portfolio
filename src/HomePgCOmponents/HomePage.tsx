@@ -28,19 +28,19 @@ const HomePage = () => {
             <div className={styles.feature_title}>Featured</div>
             <div className={styles.features}>
               <Featured
-                image={"/Feature1.png"}
-                title={"Feature 1"}
-                date={"March 19"}
+                image={"/Feature_AfterCopy.png"}
+                title={"After.com COPY!"}
+                date={"Feb 15"}
               />
               <Featured
-                image={"/Feature2.png"}
-                title={"Feature 2"}
-                date={"March 19"}
+                image={"/Feature_TikTaker.png"}
+                title={"Tik-Taker"}
+                date={"Nov 12 '23"}
               />
               <Featured
-                image={"/Feature3.png"}
-                title={"Feature 3"}
-                date={"March 19"}
+                image={"/Feature_First_Website.png"}
+                title={"First website"}
+                date={"Sep 10 '23"}
               />
             </div>
           </div>
@@ -49,25 +49,25 @@ const HomePage = () => {
             <Toolbelt />
             <Background
               imageArr={[
-                "/Feature1.png",
-                "/Feature2.png",
-                "/Feature3.png",
-                "/Feature2.png",
-                "/Feature1.png",
+                "/Feature_AfterCopy.svg",
+                "/KukImg.svg",
+                "/Meta.svg",
+                "/JEE.svg",
+                "/School_Img.svg",
               ]}
               titleArr={[
-                "My doosra experdjaljdalksience",
-                "Mero teesdjalkra xp",
-                "My doosradakjkal experience",
-                "Amazon",
-                "Google",
+                "After.com COPY developer",
+                "Bachelor in Computer Applications",
+                "Intro to Front-End development",
+                "JEE failed",
+                "School",
               ]}
               timelineArr={[
-                "May 1 - Prejsdlksent",
-                "Sep 10 - Decfjslkfjsl25",
-                "Jan 20 - Apfsjlfjsldfjsljfljkjfr 31",
-                "jlsdjl - jkfjslfjjks",
-                "akl09 - klkfsjlf90",
+                "Present - Self",
+                "July 2024 - Kurukshetra University",
+                "Aug 2023 - META",
+                "May 2021 - self",
+                "2020 - Homerton Grammar School",
               ]}
             />
           </div>
