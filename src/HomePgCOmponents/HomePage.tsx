@@ -31,16 +31,19 @@ const HomePage = () => {
                 image={"/Feature_AfterCopy.png"}
                 title={"After.com COPY!"}
                 date={"Feb 15"}
+                feature_link="https://aftercopy.netlify.app/"
               />
               <Featured
                 image={"/Feature_TikTaker.png"}
                 title={"Tik-Taker"}
                 date={"Nov 12 '23"}
+                feature_link="https://tiktaker.netlify.app/"
               />
               <Featured
                 image={"/Feature_First_Website.png"}
                 title={"First website"}
                 date={"Sep 10 '23"}
+                feature_link="https://testphysioatghar.netlify.app/"
               />
             </div>
           </div>
@@ -52,21 +55,18 @@ const HomePage = () => {
                 "/Feature_AfterCopy.svg",
                 "/KukImg.svg",
                 "/Meta.svg",
-                "/JEE.svg",
                 "/School_Img.svg",
               ]}
               titleArr={[
-                "After.com COPY developer",
+                "developing after.com COPY",
                 "Bachelor in Computer Applications",
                 "Intro to Front-End development",
-                "JEE failed",
                 "School",
               ]}
               timelineArr={[
                 "Present - Self",
                 "July 2024 - Kurukshetra University",
                 "Aug 2023 - META",
-                "May 2021 - self",
                 "2020 - Homerton Grammar School",
               ]}
             />

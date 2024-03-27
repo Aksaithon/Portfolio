@@ -37,11 +37,6 @@ const Background: React.FC<bg_dataArray> = ({
             title_xp={titleArr[3]}
             timeline_xp={timelineArr[3]}
           />
-          <Bg_experience
-            image_xp={imageArr[4]}
-            title_xp={titleArr[4]}
-            timeline_xp={timelineArr[4]}
-          />
         </div>
       </div>
     </>
