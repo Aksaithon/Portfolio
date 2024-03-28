@@ -41,4 +41,8 @@
     .features_grid{
         grid-template-columns: 1fr;
     }
+
+    .showcase_flex{
+      padding: 12px;
+    }
 }
