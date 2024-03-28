@@ -23,8 +23,11 @@ img,
 .logo_and_nav_links {
   display: flex;
   flex-direction: row;
+  width: 100%;
   align-items: center;
   gap: 25px;
+
+  transition: all 0.2s;
 }
 
 .nav_links {
@@ -56,4 +59,10 @@ img,
   align-items: center;
 
   gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo_and_nav_links{
+    justify-content: space-between;
+  }
 }
