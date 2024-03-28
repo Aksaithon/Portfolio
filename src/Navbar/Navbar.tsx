@@ -1,17 +1,26 @@
+import { NavLink } from "react-router-dom";
 import styles from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.logo_and_nav_links}>
-        <img
-          src="/Croped-Pic.png"
-          alt="logo"
-          style={{ width: "38px", height: "38px" }}
-        />
+        <NavLink to={"/"}>
+          <img
+            src="/Croped-Pic.png"
+            alt="logo"
+            style={{ width: "38px", height: "38px" }}
+          />
+        </NavLink>
         <div className={styles.nav_links}>
-          <p>Home</p>
-          <p>Blog</p>
-          <p>Showcase</p>
+          <NavLink className={styles.nav} to={"/"}>
+            Home
+          </NavLink>
+          <NavLink className={styles.nav} to={"/blog"}>
+            Blog
+          </NavLink>
+          <NavLink className={styles.nav} to={"/showcase"}>
+            Showcase
+          </NavLink>
         </div>
       </div>
 

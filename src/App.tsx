@@ -1,11 +1,18 @@
 import HomePage from "./HomePgCOmponents/HomePage";
 import "./App.css";
-import Navbar from "./HomePgCOmponents/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Showcase from "./ShowCaseComponents/Showcase";
+import Navbar from "./Navbar/Navbar";
 const App = () => {
   return (
     <>
-      <Navbar />
-      <HomePage />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/showcase" element={<Showcase />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };

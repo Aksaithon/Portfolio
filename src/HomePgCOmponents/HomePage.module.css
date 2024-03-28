@@ -97,9 +97,12 @@
 }
 
 .features {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 176px);
   flex-direction: column;
 
+  /* height: 176px; */
   width: inherit;
   gap: 25px;
 }

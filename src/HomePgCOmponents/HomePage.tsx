@@ -58,7 +58,7 @@ const HomePage = () => {
                 "/School_Img.svg",
               ]}
               titleArr={[
-                "developing after.com COPY",
+                "Developing after.com COPY",
                 "Bachelor in Computer Applications",
                 "Intro to Front-End development",
                 "School",
