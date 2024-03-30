@@ -21,21 +21,25 @@ const Background: React.FC<bg_dataArray> = ({
             image_xp={imageArr[0]}
             title_xp={titleArr[0]}
             timeline_xp={timelineArr[0]}
+            verify={false}
           />
           <Bg_experience
             image_xp={imageArr[1]}
             title_xp={titleArr[1]}
             timeline_xp={timelineArr[1]}
+            verify={false}
           />
           <Bg_experience
             image_xp={imageArr[2]}
             title_xp={titleArr[2]}
             timeline_xp={timelineArr[2]}
+            verify={true}
           />
           <Bg_experience
             image_xp={imageArr[3]}
             title_xp={titleArr[3]}
             timeline_xp={timelineArr[3]}
+            verify={false}
           />
         </div>
       </div>
