@@ -19,7 +19,6 @@ img,
   margin: 0;
 }
 
-
 .logo_and_nav_links {
   display: flex;
   flex-direction: row;
@@ -50,6 +49,9 @@ img,
   }
 }
 
+.nav:focus {
+  color: #fff;
+}
 .social_links {
   display: flex;
   flex-direction: row;
@@ -62,7 +64,7 @@ img,
 }
 
 @media screen and (max-width: 768px) {
-  .logo_and_nav_links{
+  .logo_and_nav_links {
     justify-content: space-between;
   }
 }
