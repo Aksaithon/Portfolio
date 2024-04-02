@@ -1,9 +1,11 @@
-import Model3D from "./Model3D";
+// import ModelViewer from "./Model3D";
+import HelloCube from "./ThreeJs Fundamentals/HelloCube";
 
 const App3D = () => {
   return (
     <>
-      <Model3D/>
+      {/* <ModelViewer/> */}
+      <HelloCube/>
     </>
   );
 };
