@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "../App3D.tsx", "../Model3D.tsx", "../ThreeDotJS_Practice.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
