@@ -22,10 +22,10 @@
 
 .myImg {
   width: 296px;
-  height: 300px;
-  background-image: url(/Croped-Pic.png);
+  height: 320px;
+  /* background-image: url(/Croped-Pic.png);
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 .myImg{
   scale: 0.8;

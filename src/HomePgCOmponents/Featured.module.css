@@ -18,8 +18,9 @@
   overflow: hidden;
 
   text-decoration: none;
-}
 
+  -webkit-tap-highlight-color: transparent;
+}
 
 .grdnt {
   position: absolute;
@@ -37,7 +38,7 @@
   opacity: 0;
 }
 
-.feature:hover{
+.feature:hover {
   scale: 1.05;
   cursor: pointer;
 }

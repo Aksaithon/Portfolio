@@ -7,7 +7,11 @@ const HomePage = () => {
     <>
       <div className={styles.BLOCKS}>
         <div className={styles.Main_BLOCK}>
-          <div className={styles.myImg}></div>
+          <img
+            src="/Croped-Pic.png"
+            loading="eager"
+            className={styles.myImg}
+          ></img>
 
           <div className={styles.title_and_cations}>
             <div className={styles.title}>
@@ -15,7 +19,8 @@ const HomePage = () => {
             </div>
 
             <div className={styles.captions}>
-              I'm a <span className={styles.bold}>Front-end developer</span> specializing in
+              I'm a <span className={styles.bold}>Front-end developer</span>{" "}
+              specializing in
               <span className={styles.bold}> 3D</span> ,
               <span className={styles.bold}> Typscript,</span> and the
               <span className={styles.bold}> web.</span>
