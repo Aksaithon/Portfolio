@@ -12,6 +12,13 @@ const Navbar = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+//   window.onload = () => {
+//     const homeLink = document.getElementById('home');
+//     if (homeLink) {
+//         homeLink.style.color = '#fff'; // Change the color to your desired value
+//     }
+// };
+
   return (
     <div className={styles.navbar}>
       <div className={styles.logo_and_nav_links}>
