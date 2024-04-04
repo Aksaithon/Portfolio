@@ -8,7 +8,7 @@ const HomePage = () => {
       <div className={styles.BLOCKS}>
         <div className={styles.Main_BLOCK}>
           <img
-            src="/Croped-Pic.png"
+            src="/Croped-Pic.svg"
             loading="eager"
             className={styles.myImg}
           ></img>

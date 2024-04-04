@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className={styles.logo_and_nav_links}>
         <NavLink to={"/"}>
           <img
-            src="/Croped-Pic.png"
+            src="/Croped-Pic.svg"
             alt="logo"
             style={{ width: "38px", height: "38px" }}
           />
