@@ -20,7 +20,7 @@ const HomePage = () => {
             </div>
 
             <div className={styles.captions}>
-              I'm a <span className={styles.bold}>Design engineer</span>
+              I'm a <span className={styles.bold}>Design engineer </span>
               specializing in
               <span className={styles.bold}> 3D</span> ,
               <span className={styles.bold}> Typscript,</span> and the
