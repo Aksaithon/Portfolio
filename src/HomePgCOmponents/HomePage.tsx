@@ -35,7 +35,7 @@ const HomePage = () => {
             <div className={styles.features}>
               <Featured
                 image={"/Feature_AfterCopy.png"}
-                title={"After.com COPY!"}
+                title={"after.com replica"}
                 date={"Feb 15"}
                 feature_link="https://aftercopy.netlify.app/"
               />
@@ -64,7 +64,7 @@ const HomePage = () => {
                 "/School_Img.svg",
               ]}
               titleArr={[
-                "Developing after.com COPY",
+                "Developing after.com replica",
                 "Bachelor in Computer Applications",
                 "Intro to Front-End development",
                 "School",
