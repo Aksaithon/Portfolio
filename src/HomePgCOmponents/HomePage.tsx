@@ -49,7 +49,7 @@ const HomePage = () => {
                 image={"/Feature_First_Website.png"}
                 title={"First website"}
                 date={"Sep 10 '23"}
-                feature_link="https://testphysioatghar.netlify.app/"
+                feature_link="https://myy-1st-site.netlify.app/"
               />
             </div>
           </div>
