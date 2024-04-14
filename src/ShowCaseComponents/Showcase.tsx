@@ -8,7 +8,7 @@ const Showcase = () => {
       <div className={styles.features_grid}>
         <Featured
           image={"/Feature_AfterCopy.png"}
-          title={"After.com COPY!"}
+          title={"After.com replica"}
           date={"Feb 15"}
           feature_link="https://aftercopy.netlify.app/"
         />
