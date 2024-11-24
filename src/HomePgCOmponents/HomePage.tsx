@@ -59,7 +59,7 @@ const HomePage = () => {
             <Background
               imageArr={[
                 "/Feature_AfterCopy.svg",
-                "/KukImg.svg",
+                "/University-tree-logo.png",
                 "/Meta.svg",
                 "/School_Img.svg",
               ]}
