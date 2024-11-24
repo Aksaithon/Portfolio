@@ -66,12 +66,12 @@ const HomePage = () => {
               titleArr={[
                 "Developing after.com replica",
                 "Bachelor in Computer Applications",
-                "Intro to Front-End development",
+                "Intro to Front-End Development",
                 "School",
               ]}
               timelineArr={[
                 "Present - Self",
-                "July 2024 - Kurukshetra University",
+                "July 2024 - Manav Rachna International Institute of Research and Studies",
                 "Aug 2023 - META",
                 "2020 - Homerton Grammar School",
               ]}
